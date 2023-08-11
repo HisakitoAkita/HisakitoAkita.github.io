@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+         .phone-specs-content {
+            box-shadow: 0px 0px 50px rgba(243, 15, 15, 0.863);
+            margin: 180px; /* Atur jarak dari carousel */
+            border-left: 10px solid #f00; /* Atur ukuran dan warna border */
+        }
+
+        .phone-specs-content h2 {
+            margin-top: 0; /* Hilangkan margin atas pada h2 */
+        }
+
+        .phone-specs-content p {
+            white-space: normal; /* Tampilkan teks penuh */
+            margin-bottom: 10px; /* Beri sedikit margin bawah pada paragraf */
+        }
+
+        /* Mengatur warna tautan menjadi hitam */
+        .phone-specs-content a {
+        color: black;
+        text-decoration: none; /* Menghilangkan dekorasi bawah pada tautan */
+        }
+
+        #phone-carousel {
+            margin-top: 20px; /* Atur jarak atas dari carousel */
+        }
+
+        .carousel-inner {
+            max-width: 1000%; 
+        }
+
+        .carousel-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .carousel-item {
+            flex: 0 0 calc(100% - 20px); /* 50% width with some space between columns */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Daftar Spesifikasi Handphone</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="beranda.html">Beranda</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="hpTypeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tipe HP
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="hpTypeDropdown">
+                        <a class="dropdown-item" href="samsung.html">Samsung</a>
+                        <a class="dropdown-item" href="xiaomi.html">Xiaomi</a>
+                        <a class="dropdown-item" href="realme.html">Realme</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="socialMediaDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sosial Media
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="socialMediaDropdown">
+                        <a class="dropdown-item" href="https://instagram.com/hisakito_akita?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">Instagram</a>
+                        <a class="dropdown-item" href="https://discord.gg/s2n2MJg5">Discord</a>
+                        <a class="dropdown-item" href="https://www.tiktok.com/@just_softboy?_t=8eicORfMEgU&_r=1">TikTok</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cs.html">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container my-4">
+        <div class="row justify-content-center"> 
+            <div class="col-md-6">
+                <div id="phone-carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="phone-specs-content">
+                                <a href="mi10.html">
+                                <img src="D:/Website/gambar/mi10.jpg" alt="Xiaomi Mi 10 5G">
+                                <h2>Xiaomi Mi 10 5G</h2>
+                                <p>Harga: Rp8.999.000</p>
+                                <p>Layar: 6.67 inci</p>
+                                <p>Kamera Utama: 108 MP, f/1.7, (wide), 1/1.33", 0.8µm, PDAF, OIS</p>
+                                <p>Baterai: 4780 mAh</p>
+                                <p>Mendukung 30W, PD3.0</p>
+                                <p>desain melengkung dengan sudut bulat yang anggun</p> 
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="phone-specs-content">
+                                <a href="mi11.html">
+                                <img src="D:/Website/gambar/mi11.jpg" alt="Xiaomi Mi 11 5G">
+                                <h2>Xiaomi Mi 11 5G</h2>
+                                <p>Harga: Rp 9.999.000</p>
+                                <p>Layar: WQHD+ 6,81" AMOLED DotDisplay</p>
+                                <p>Kamera Utama: 48 MP OIS</p>
+                                <p>Baterai: 4600 mAh</p>
+                                <p>Mendukung Pengisian daya turbo berkabel 55W/ pengisian daya turbo nirkabel 50W/ pengisian daya nirkabel terbalik 10W</p>
+                                <p>Tampilan quad-curved</p> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#phone-carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#phone-carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Muhammad Faiq. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

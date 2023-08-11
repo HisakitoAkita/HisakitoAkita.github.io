@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .homepage-content {
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            margin: 40px;
+            border-left: 4px solid #007bff;
+        }
+
+        .homepage-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .homepage-text {
+            margin-bottom: 20px;
+        }
+
+        #hp-type-section {
+            background-color: #f8f9fa;
+            padding: 40px 0;
+        }
+
+        #benefits-section {
+            background-color: #f0f2f5;
+            padding: 40px 0;
+        }
+
+        .recommendation-section {
+            background-color: #f8f9fa;
+            padding: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Daftar Spesifikasi Handphone</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="beranda.html">Beranda</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="hpTypeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tipe HP
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="hpTypeDropdown">
+                        <a class="dropdown-item" href="samsung.html">Samsung</a>
+                        <a class="dropdown-item" href="xiaomi.html">Xiaomi</a>
+                        <a class="dropdown-item" href="realme.html">Realme</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="socialMediaDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sosial Media
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="socialMediaDropdown">
+                        <a class="dropdown-item" href="https://instagram.com/hisakito_akita?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">Instagram</a>
+                        <a class="dropdown-item" href="https://discord.gg/s2n2MJg5">Discord</a>
+                        <a class="dropdown-item" href="https://www.tiktok.com/@just_softboy?_t=8eicORfMEgU&_r=1">TikTok</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cs.html">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>  
+    <main class="container my-4">
+        <div class="jumbotron bg-transparent text-dark">
+            <h1 class="display-4">Selamat Datang di Daftar Spesifikasi Handphone!</h1>
+            <p class="lead">Temukan dunia penuh inovasi di dalam genggaman Anda.</p>
+            <hr class="my-4">
+            <p>Kami menyajikan informasi komprehensif tentang tipe-tipe HP terbaik dari berbagai merek terkenal.</p>
+            <p>Dengan tampilan elegan, performa luar biasa, dan fitur-fitur canggih, kami membantu Anda memilih HP yang sesuai dengan gaya hidup Anda.</p>
+            <a class="btn btn-primary btn-lg" href="#tipe-hp" role="button">Mulai Jelajahi</a>
+        </div>
+        
+        <section id="tipe-hp">
+            <h2>Pilih Tipe HP Favorit Anda</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="D:/Website/gambar/mi10.jpg" class="card-img-top" alt="Xiaomi">
+                        <div class="card-body">
+                            <h5 class="card-title">Xiaomi</h5>
+                            <p class="card-text">Menawarkan perangkat inovatif dengan kualitas kamera unggul dan baterai tahan lama.</p>
+                            <a href="xiaomi.html" class="btn btn-primary">Lihat Spesifikasi</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="D:/Website/gambar/c53.jpg" class="card-img-top" alt="Realme">
+                        <div class="card-body">
+                            <h5 class="card-title">Realme</h5>
+                            <p class="card-text">Menghadirkan kombinasi desain trendi dan performa kuat. Temukan tipe HP Realme yang cocok dengan gaya Anda.</p>
+                            <a href="realme.html" class="btn btn-primary">Lihat Spesifikasi</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="D:/Website/gambar/a33.jpg" class="card-img-top" alt="Samsung">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung</h5>
+                            <p class="card-text">Merek global dengan kualitas terbaik dan inovasi luar biasa. Telusuri tipe HP Samsung untuk pengalaman mewah dan canggih.</p>
+                            <a href="samsung.html" class="btn btn-primary">Lihat Spesifikasi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="manfaat">
+            <h2>Manfaat Menggunakan Website Kami</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">Informasi Terpercaya: Kami menyajikan data terbaru dan akurat tentang tipe HP dari berbagai merek.</li>
+                        <li class="list-group-item">Pembandingan Mudah: Bandingkan spesifikasi dan fitur antara tipe HP yang berbeda dalam satu tempat.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">Rekomendasi Personal: Temukan rekomendasi HP berdasarkan preferensi Anda.</li>
+                        <li class="list-group-item">Tips & Trik: Dapatkan panduan dan tips untuk mengoptimalkan pengalaman HP Anda.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="rekomendasi">
+            <h2>Rekomendasi HP</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="D:/Website/gambar/mi11.jpg" class="card-img-top" alt="Xiaomi Mi 11">
+                        <div class="card-body">
+                            <h5 class="card-title">Xiaomi Mi 11</h5>
+                            <p class="card-text">Dibekali dengan layar AMOLED berkualitas tinggi, performa canggih dari chipset Snapdragon 888, serta kamera utama 108 MP yang menghasilkan foto berkualitas tinggi.</p>
+                            <a href="mi11.html" class="btn btn-primary">Lihat Spesifikasi</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="D:/Website/gambar/a34.jpg" class="card-img-top" alt="Samsung Galaxy A34">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy A34</h5>
+                            <p class="card-text">Menawarkan desain elegan, baterai tahan lama, dan fitur kamera yang canggih. Cocok untuk pengguna yang menginginkan performa sehari-hari yang handal.</p>
+                            <a href="a34.html" class="btn btn-primary">Lihat Spesifikasi</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="D:/Website/gambar/c55.jpg" class="card-img-top" alt="Realme C55">
+                        <div class="card-body">
+                            <h5 class="card-title">Realme C55</h5>
+                            <p class="card-text">Desain yang menawan dengan layar besar dan kualitas kamera yang baik. Cocok untuk pengguna yang mencari smartphone berkualitas dengan harga terjangkau.</p>
+                            <a href="c55.html" class="btn btn-primary">Lihat Spesifikasi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Muhammad Faiq. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

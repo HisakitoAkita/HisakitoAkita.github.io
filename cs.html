@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+    /* Gaya tautan pada FAQ dan nomor telepon */
+    #faq .card-header button.btn-link,
+    #kontak a {
+        color: black; /* Warna teks tautan menjadi hitam */
+        text-decoration: none; /* Menghilangkan dekorasi bawah pada tautan */
+    }
+
+    #faq .card-header button.btn-link:hover,
+    #kontak a:hover {
+        text-decoration: underline; /* Menambahkan garis bawah pada tautan saat dihover */
+    }
+    
+        #faq {
+            background-color: rgba(240, 234, 240, 0.521); /* Warna putih transparan */
+            padding: 40px;
+            margin-top: 50px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px rgb(179, 2, 2);
+        }
+
+        #kontak {
+            background-color: rgba(240, 234, 240, 0.521); /* Warna putih transparan */
+            padding: 40px;
+            margin-top: 50px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px rgb(179, 2, 2);
+        }
+    
+        .card {
+            background-color: transparent; /* Latar belakang kartu transparan */
+            border: none;
+        }
+    
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Daftar Spesifikasi Handphone</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="beranda.html">Beranda</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="hpTypeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tipe HP
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="hpTypeDropdown">
+                        <a class="dropdown-item" href="samsung.html">Samsung</a>
+                        <a class="dropdown-item" href="xiaomi.html">Xiaomi</a>
+                        <a class="dropdown-item" href="realme.html">Realme</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="socialMediaDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sosial Media
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="socialMediaDropdown">
+                        <a class="dropdown-item" href="https://instagram.com/hisakito_akita?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">Instagram</a>
+                        <a class="dropdown-item" href="https://discord.gg/s2n2MJg5">Discord</a>
+                        <a class="dropdown-item" href="https://www.tiktok.com/@just_softboy?_t=8eicORfMEgU&_r=1">TikTok</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cs.html">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>  
+    <main class="container my-4">
+
+        <section id="faq">
+            <h2>Pertanyaan Umum (FAQ)</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="card">
+                    <div class="card-header" id="faqHeading1">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                                Apa yang harus saya lakukan jika HP saya mengalami masalah baterai?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="faqCollapse1" class="collapse" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Anda dapat mengikuti langkah-langkah di panduan pengguna untuk mengoptimalkan kinerja baterai. Jika masalah terus berlanjut, sebaiknya kunjungi layanan purna jual.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="faqHeading2">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="true" aria-controls="faqCollapse2">
+                                Bagaimana cara memindahkan data dari HP lama ke HP baru?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Anda dapat menggunakan fitur transfer data bawaan atau aplikasi pihak ketiga untuk memindahkan kontak, pesan, dan data lainnya dari HP lama ke HP baru.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="faqHeading3">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse3" aria-expanded="true" aria-controls="faqCollapse3">
+                                Bagaimana cara mengatasi HP yang terkena virus?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="faqCollapse3" class="collapse" aria-labelledby="faqHeading3" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Anda dapat menginstal aplikasi keamanan untuk memeriksa dan membersihkan virus. Hindari mengunduh aplikasi dari sumber yang tidak resmi.
+                        </div>
+                    </div>
+                </div>
+                <!-- Tambahkan FAQ lainnya sesuai kebutuhan -->
+            </div>
+        </section>
+
+        <section id="kontak" class="py-5">
+            <div class="container text-center">
+                <h2 class="display-4">Hubungi Kami</h2>
+                <p> Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, silakan hubungi kami melalui nomor telepon berikut:</p>
+                <p>Nomor Telepon: <a href="tel:+123456789">+123 456 789</a></p>
+                <p> Atau silakan hubungi kami melalui email di bawah ini.</p>
+                <a href="mailto:developer@example.com" class="btn btn-primary btn-lg">Hubungi Kami</a>
+                
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Muhammad Faiq. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
